@@ -1,3 +1,27 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+" set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.config/nvim/bundle/Vundle.vim
+call vundle#begin("~/.config/nvim/bundle")
+  " alternatively, pass a path where Vundle should install plugins
+  "call vundle#begin('~/some/path/here')
+
+  " let Vundle manage Vundle, required
+  Plugin 'VundleVim/Vundle.vim'
+
+  " plugin on GitHub repo
+  Plugin 'tpope/vim-fugitive'
+
+  " Git plugin not hosted on GitHub
+  Plugin 'git://git.wincent.com/command-t.git'
+
+  Bundle 'danielroseman/pygd-vim'
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
@@ -35,7 +59,6 @@ call plug#begin('~/.vim/plugged')
    Plug 'vim-python/python-syntax'
 
 call plug#end()
-
 
 " UI configuration
 syntax on
