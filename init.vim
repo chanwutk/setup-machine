@@ -167,9 +167,6 @@ set scrolloff=99999
 " set leader key to '\'
 let mapleader = '\'
 
-" mapping
-map <silent> <C-n> :NERDTreeToggle<CR>
-
 " set indent line color to grey
 let g:indentLine_color_term = 7
 
