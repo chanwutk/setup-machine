@@ -11,3 +11,9 @@ python3 ./__setup_machine__/setup_zsh.py
 python3 ./__setup_machine__/setup_zsh.py
 rm -rf __setup_machine__
 ```
+
+## Neovim Config
+location: `~/.config/nvim/init.vim`
+
+## Thai Font Setup
+location: `~/.config/fontconfig/conf.d/th-font.conf`
