@@ -1,0 +1,33 @@
+set number
+
+set hidden
+set mouse=a
+set noshowmode
+set noshowmatch
+set nolazyredraw
+
+" Turn off backup
+set nobackup
+set noswapfile
+set nowritebackup
+
+" Search configuration
+set ignorecase                    " ignore case when searching
+set smartcase                     " turn on smartcase
+
+" Tab and Indent configuration
+set expandtab
+set tabstop=4
+set shiftwidth=4
+
+ " Sets how many lines of history VIM has to remember
+ set history=1000
+
+ " Set to auto read when a file is changed from the outside
+ set autoread
+
+ " set cursor at the middle of the screen
+ set scrolloff=99999
+
+ " set leader key to '\'
+ let mapleader = '\'
