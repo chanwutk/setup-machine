@@ -17,4 +17,5 @@ location: `~/.config/nvim/init.vim`
 
 ## Thai Font Setup
 install: `sudo apt install fonts-thai-tlwg-ttf && sudo apt install fonts-thai-tlwg-otf`
+
 location: `~/.config/fontconfig/conf.d/th-font.conf`
